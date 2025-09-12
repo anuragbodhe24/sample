@@ -1,0 +1,39 @@
+🔧 1. In Software Development (especially on GitHub)
+
+A fork is a copy of a repository.
+It lets you freely experiment with changes without affecting the original project.
+
+You can fork someone else’s code, make changes, and even propose your changes back to the original via a pull request.
+
+Common in open source collaboration.
+
+Example:
+You find a project on GitHub and click "Fork" to copy it to your account. You now have your own version to work on.
+
+💻 2. In Operating Systems (like Unix/Linux)
+
+In programming, especially in C or Unix-based systems, fork() is a system call that creates a new process.
+
+The new process is called a child process.
+
+It’s an almost exact copy of the calling (parent) process.
+
+Example (C):
+
+pid_t pid = fork();
+if (pid == 0) {
+    // This is the child process
+} else {
+    // This is the parent process
+}
+
+🌐 3. In Blockchain / Cryptocurrency
+
+A fork refers to a change or split in a blockchain protocol.
+
+Soft fork: Backward-compatible change
+
+Hard fork: Not backward-compatible; creates two separate chains
+
+Example:
+Bitcoin and Bitcoin Cash split due to a hard fork.
